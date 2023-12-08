@@ -12,9 +12,6 @@ namespace UndavTanqueAgua
 		int caudal;
 	};
 
-	//int id = 0;
-	//int asignarIdTanque() { return id++; }
-
 	TanqueAgua* Crear(int capacidad, int caudal, int id)
 	{
 		TanqueAgua* nuevoTanque = new TanqueAgua;
