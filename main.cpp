@@ -32,5 +32,3 @@ void Mostrar(TanqueAgua* tanque)
 		cout << "Capacidad: " << ObtenerCapacidad(tanque) << " Caudal:" << ObtenerCaudal(tanque) << endl;
 	}
 }
-
-// Extra como no perder memoria?
