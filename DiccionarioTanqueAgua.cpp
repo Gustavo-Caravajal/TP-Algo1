@@ -5,13 +5,16 @@
 
 using namespace std;
 
-namespace UndavDiccionarioTanqueAgua{
-	struct Item {
+namespace UndavDiccionarioTanqueAgua
+{
+	struct Item 
+	{
 		Clave id;
 		Valor valor;
 	};
 
-	struct DiccionarioTanqueAgua {
+	struct DiccionarioTanqueAgua 
+	{
 		UndavLista::Lista *lista;
 	};
 
@@ -30,7 +33,8 @@ namespace UndavDiccionarioTanqueAgua{
 		return item;
 	}
 
-	void destruirItem(Item *item) {
+	void destruirItem(Item *item) 
+	{
 		UndavTanqueAgua::Destruir(item->valor);
 		delete item;
 	}
